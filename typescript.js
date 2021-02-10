@@ -9,15 +9,15 @@ module.exports = {
         "@typescript-eslint"
     ],
     parserOptions: {
-        "ecmaVersion": 2018,
-        "sourceType": "module",
-        "ecmaFeatures": {
-            "jsx": false
+        ecmaVersion: 2018,
+        sourceType: "module",
+        ecmaFeatures: {
+            jsx: false
         }
     },
     env: {
-        "node": true,
-        "es6": true
+        node: true,
+        es6: true
     },
     rules: {
         ...rules,
@@ -29,7 +29,8 @@ module.exports = {
         "@typescript-eslint/no-parameter-properties": "off",
         "@typescript-eslint/interface-name-prefix": "off",
         "@typescript-eslint/consistent-type-definitions": "off",
-        
+        "@typescript-eslint/explicit-module-boundary-types":  "off",
+        "@typescript-eslint/ban-ts-comment": "off",
         "@typescript-eslint/no-use-before-define": "off",
 
         "@typescript-eslint/member-delimiter-style": ["error", { "multiline": { "delimiter": "none" }, "singleline": { "delimiter": "comma" } }],
