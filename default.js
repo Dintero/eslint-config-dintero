@@ -19,6 +19,7 @@ module.exports = {
         "space-unary-ops": ["error", { "words": true, "nonwords": false }],
         "object-property-newline": ["error", { "allowAllPropertiesOnSameLine": true }],
         "space-in-parens": ["error", "never"],
+        "function-paren-newline": ["error", "multiline-arguments"],
         "space-before-blocks": ["warn", "always"],
         "brace-style": ["warn", "1tbs", { "allowSingleLine": true }],
         "object-curly-spacing": ["warn", "always", { "arraysInObjects": false }],
