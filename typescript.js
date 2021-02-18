@@ -32,6 +32,7 @@ module.exports = {
         "@typescript-eslint/explicit-module-boundary-types":  "off",
         "@typescript-eslint/ban-ts-comment": "off",
         "@typescript-eslint/no-use-before-define": "off",
+        "@typescript-eslint/no-non-null-assertion": "off",
 
         "@typescript-eslint/member-delimiter-style": ["error", { "multiline": { "delimiter": "none" }, "singleline": { "delimiter": "comma" } }],
         "@typescript-eslint/type-annotation-spacing": ["error", { "before": false, "after": true, "overrides": { "arrow": { "before": true, "after": true }} }],
