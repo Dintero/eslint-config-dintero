@@ -39,6 +39,6 @@ module.exports = {
         "@typescript-eslint/type-annotation-spacing": ["error", { "before": false, "after": true, "overrides": { "arrow": { "before": true, "after": true }} }],
 
         "indent": "off",
-        "@typescript-eslint/indent": ["error", 4],
+        "@typescript-eslint/indent": "off",
     }
 }
