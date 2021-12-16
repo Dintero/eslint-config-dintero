@@ -38,7 +38,6 @@ module.exports = {
         "@typescript-eslint/member-delimiter-style": ["error", { "multiline": { "delimiter": "none" }, "singleline": { "delimiter": "comma" } }],
         "@typescript-eslint/type-annotation-spacing": ["error", { "before": false, "after": true, "overrides": { "arrow": { "before": true, "after": true }} }],
 
-        "indent": "off",
         "@typescript-eslint/indent": "off",
     }
 }
