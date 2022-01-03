@@ -11,7 +11,10 @@ module.exports = {
         "semi": ["warn", "always"],
         "comma-spacing": ["error", { "before": false, "after": true }],
         "quotes": ["error", "single", { "allowTemplateLiterals": true }],
-        "indent": ["error", 4],
+		"indent": ["error", 4, {
+			"SwitchCase": 1,
+			"ignoredNodes": ["VariableDeclaration[declarations.length=0]"]
+		}],
         "computed-property-spacing": "error",
         "array-bracket-spacing": "error",
         "arrow-spacing": ["error", { "before": true, "after": true }],
